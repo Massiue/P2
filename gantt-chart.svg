@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title description">
+  <title id="title">Illustrative project development timeline</title>
+  <desc id="description">A dark, eight-week Gantt chart showing planning, analysis and design, parallel database, backend and frontend development, integration, testing, documentation, and final review.</desc>
+  <defs>
+    <style>
+      .title { font: 600 21px 'Segoe UI', Arial, sans-serif; fill: #d7d7d7; }
+      .phase { font: 500 13px 'Segoe UI', Arial, sans-serif; fill: #d0d0d0; }
+      .task { font: 400 11px 'Segoe UI', Arial, sans-serif; fill: #d2d2d2; }
+      .tick { font: 400 11px 'Segoe UI', Arial, sans-serif; fill: #b6b6b6; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="440" fill="#ffffff"/>
+  <rect x="28" y="34" width="1224" height="370" fill="#111213"/>
+  <text x="640" y="65" text-anchor="middle" class="title">Smart Street Lighting Project Timeline</text>
+
+  <g stroke="#77797b" stroke-width="1">
+    <path d="M170 100V372"/>
+    <path d="M300 100V372"/>
+    <path d="M430 100V372"/>
+    <path d="M560 100V372"/>
+    <path d="M690 100V372"/>
+    <path d="M820 100V372"/>
+    <path d="M950 100V372"/>
+    <path d="M1080 100V372"/>
+    <path d="M1210 100V372"/>
+  </g>
+
+  <g>
+    <rect x="48" y="158" width="1184" height="40" fill="#3e3f40"/>
+    <rect x="48" y="238" width="1184" height="68" fill="#3e3f40"/>
+    <rect x="48" y="346" width="1184" height="26" fill="#3e3f40"/>
+  </g>
+
+  <g class="phase">
+    <text x="58" y="137">Planning</text>
+    <text x="58" y="183">Analysis</text>
+    <text x="58" y="275">Development</text>
+    <text x="58" y="331">Testing</text>
+    <text x="58" y="364">Release</text>
+  </g>
+
+  <g fill="none" stroke="#1686b2" stroke-width="2">
+    <rect x="181" y="117" width="229" height="20" rx="3"/>
+    <rect x="181" y="140" width="148" height="16" rx="3"/>
+    <rect x="430" y="165" width="211" height="20" rx="3"/>
+    <rect x="430" y="187" width="182" height="16" rx="3"/>
+    <rect x="430" y="247" width="148" height="18" rx="3"/>
+    <rect x="560" y="270" width="278" height="18" rx="3"/>
+    <rect x="625" y="291" width="310" height="18" rx="3"/>
+    <rect x="820" y="247" width="180" height="18" rx="3"/>
+    <rect x="950" y="319" width="150" height="20" rx="3"/>
+    <rect x="1080" y="349" width="130" height="20" rx="3"/>
+    <rect x="1145" y="325" width="65" height="18" rx="3"/>
+  </g>
+
+  <g class="task" text-anchor="middle">
+    <text x="295" y="131">Requirements &amp; scope</text>
+    <text x="255" y="152">Project planning</text>
+    <text x="535" y="179">Requirements analysis</text>
+    <text x="521" y="199">UI &amp; database design</text>
+    <text x="504" y="260">Database &amp; seed data</text>
+    <text x="699" y="283">Backend API &amp; authentication</text>
+    <text x="780" y="304">Frontend role-based pages</text>
+    <text x="910" y="260">Integration &amp; uploads</text>
+    <text x="1025" y="333">Testing &amp; fixes</text>
+    <text x="1145" y="363">Docs &amp; release</text>
+    <text x="1177" y="339">Final review</text>
+  </g>
+
+  <path d="M170 94V378" stroke="#ff2525" stroke-width="2"/>
+
+  <g class="tick" text-anchor="middle">
+    <text x="235" y="389">WEEK 1</text>
+    <text x="365" y="389">WEEK 2</text>
+    <text x="495" y="389">WEEK 3</text>
+    <text x="625" y="389">WEEK 4</text>
+    <text x="755" y="389">WEEK 5</text>
+    <text x="885" y="389">WEEK 6</text>
+    <text x="1015" y="389">WEEK 7</text>
+    <text x="1145" y="389">WEEK 8</text>
+  </g>
+</svg>

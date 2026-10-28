@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040" role="img" aria-labelledby="title description">
+  <title id="title">Street light fault reporting and repair workflow</title>
+  <desc id="description">A citizen reports a faulty street light, the system logs it, an administrator assigns a technician, maintenance staff repair the light and upload proof, and the citizen tracks the verified repair.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#eef4ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#183153" flood-opacity=".10"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#8293ad"/>
+    </marker>
+    <style>
+      .title { font: 700 31px 'Segoe UI', Arial, sans-serif; fill: #14243b; }
+      .subtitle { font: 400 17px 'Segoe UI', Arial, sans-serif; fill: #60718a; }
+      .step { font: 700 12px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.2px; }
+      .card-title { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #172a43; }
+      .body { font: 400 16px 'Segoe UI', Arial, sans-serif; fill: #5b6b82; }
+      .status { font: 700 13px 'Segoe UI', Arial, sans-serif; }
+      .footer { font: 600 14px 'Segoe UI', Arial, sans-serif; fill: #53647c; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1040" rx="26" fill="url(#background)"/>
+  <circle cx="1105" cy="72" r="95" fill="#dbeafe" opacity=".45"/>
+  <circle cx="80" cy="960" r="110" fill="#d1fae5" opacity=".32"/>
+
+  <text x="54" y="70" class="title">Street Light Fault Reporting &amp; Repair</text>
+  <text x="54" y="101" class="subtitle">From a citizen report to a completed, verified maintenance job</text>
+
+  <g fill="none" stroke="#8293ad" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M385 350H418"/>
+    <path d="M770 350H803"/>
+    <path d="M980 480V590"/>
+    <path d="M815 730H782"/>
+    <path d="M430 730H397"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="45" y="220" width="340" height="260" rx="20" fill="#ffffff"/>
+    <rect x="45" y="220" width="340" height="8" rx="4" fill="#2563eb"/>
+    <circle cx="77" cy="264" r="16" fill="#dbeafe"/>
+    <text x="77" y="269" text-anchor="middle" class="step" fill="#1d4ed8">01</text>
+    <text x="105" y="268" class="step" fill="#1d4ed8">CITIZEN</text>
+    <text x="72" y="322" class="card-title">Report a fault</text>
+    <text x="72" y="357" class="body">
+      <tspan x="72" dy="0">Enter pole number, area and</tspan>
+      <tspan x="72" dy="25">issue details. Attach a fault</tspan>
+      <tspan x="72" dy="25">photo and submit.</tspan>
+    </text>
+    <rect x="72" y="429" width="125" height="30" rx="15" fill="#eff6ff"/>
+    <text x="134" y="449" text-anchor="middle" class="status" fill="#1d4ed8">New report</text>
+
+    <rect x="430" y="220" width="340" height="260" rx="20" fill="#ffffff"/>
+    <rect x="430" y="220" width="340" height="8" rx="4" fill="#0f766e"/>
+    <circle cx="462" cy="264" r="16" fill="#ccfbf1"/>
+    <text x="462" y="269" text-anchor="middle" class="step" fill="#0f766e">02</text>
+    <text x="490" y="268" class="step" fill="#0f766e">SYSTEM</text>
+    <text x="457" y="322" class="card-title">Log complaint</text>
+    <text x="457" y="357" class="body">
+      <tspan x="457" dy="0">The API validates and saves</tspan>
+      <tspan x="457" dy="25">the complaint, photo and</tspan>
+      <tspan x="457" dy="25">citizen-linked status.</tspan>
+    </text>
+    <rect x="457" y="429" width="134" height="30" rx="15" fill="#ecfdf5"/>
+    <text x="524" y="449" text-anchor="middle" class="status" fill="#047857">Report logged</text>
+
+    <rect x="815" y="220" width="340" height="260" rx="20" fill="#ffffff"/>
+    <rect x="815" y="220" width="340" height="8" rx="4" fill="#7c3aed"/>
+    <circle cx="847" cy="264" r="16" fill="#ede9fe"/>
+    <text x="847" y="269" text-anchor="middle" class="step" fill="#6d28d9">03</text>
+    <text x="875" y="268" class="step" fill="#6d28d9">ADMIN</text>
+    <text x="842" y="322" class="card-title">Review &amp; assign</text>
+    <text x="842" y="357" class="body">
+      <tspan x="842" dy="0">Review the complaint and</tspan>
+      <tspan x="842" dy="25">assign an available field</tspan>
+      <tspan x="842" dy="25">technician.</tspan>
+    </text>
+    <rect x="842" y="429" width="145" height="30" rx="15" fill="#f5f3ff"/>
+    <text x="914" y="449" text-anchor="middle" class="status" fill="#6d28d9">Assigned to staff</text>
+
+    <rect x="815" y="590" width="340" height="260" rx="20" fill="#ffffff"/>
+    <rect x="815" y="590" width="340" height="8" rx="4" fill="#d97706"/>
+    <circle cx="847" cy="634" r="16" fill="#fef3c7"/>
+    <text x="847" y="639" text-anchor="middle" class="step" fill="#b45309">04</text>
+    <text x="875" y="638" class="step" fill="#b45309">MAINTENANCE STAFF</text>
+    <text x="842" y="692" class="card-title">Perform repair</text>
+    <text x="842" y="727" class="body">
+      <tspan x="842" dy="0">Open the assigned work order</tspan>
+      <tspan x="842" dy="25">and update it to In Progress.</tspan>
+    </text>
+    <rect x="842" y="799" width="112" height="30" rx="15" fill="#fffbeb"/>
+    <text x="898" y="819" text-anchor="middle" class="status" fill="#b45309">In Progress</text>
+
+    <rect x="430" y="590" width="340" height="260" rx="20" fill="#ffffff"/>
+    <rect x="430" y="590" width="340" height="8" rx="4" fill="#059669"/>
+    <circle cx="462" cy="634" r="16" fill="#d1fae5"/>
+    <text x="462" y="639" text-anchor="middle" class="step" fill="#047857">05</text>
+    <text x="490" y="638" class="step" fill="#047857">MAINTENANCE STAFF</text>
+    <text x="457" y="692" class="card-title">Complete &amp; document</text>
+    <text x="457" y="727" class="body">
+      <tspan x="457" dy="0">Add repair notes and proof</tspan>
+      <tspan x="457" dy="25">photo, then mark the work</tspan>
+      <tspan x="457" dy="25">order Completed.</tspan>
+    </text>
+    <rect x="457" y="799" width="112" height="30" rx="15" fill="#ecfdf5"/>
+    <text x="513" y="819" text-anchor="middle" class="status" fill="#047857">Completed</text>
+
+    <rect x="45" y="590" width="340" height="260" rx="20" fill="#ffffff"/>
+    <rect x="45" y="590" width="340" height="8" rx="4" fill="#2563eb"/>
+    <circle cx="77" cy="634" r="16" fill="#dbeafe"/>
+    <text x="77" y="639" text-anchor="middle" class="step" fill="#1d4ed8">06</text>
+    <text x="105" y="638" class="step" fill="#1d4ed8">CITIZEN</text>
+    <text x="72" y="692" class="card-title">Track &amp; verify</text>
+    <text x="72" y="727" class="body">
+      <tspan x="72" dy="0">View the completed status,</tspan>
+      <tspan x="72" dy="25">technician notes and repair</tspan>
+      <tspan x="72" dy="25">proof photo.</tspan>
+    </text>
+    <rect x="72" y="799" width="151" height="30" rx="15" fill="#eff6ff"/>
+    <text x="147" y="819" text-anchor="middle" class="status" fill="#1d4ed8">Repaired &amp; verified</text>
+  </g>
+
+  <rect x="45" y="900" width="1110" height="100" rx="18" fill="#e7eef9" opacity=".86"/>
+  <text x="72" y="936" class="step" fill="#53647c">PLATFORM FLOW</text>
+  <text x="72" y="971" class="footer">React dashboard</text>
+  <path d="M225 966H266" stroke="#8293ad" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="286" y="971" class="footer">Express REST API</text>
+  <path d="M444 966H485" stroke="#8293ad" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="505" y="971" class="footer">MySQL / SQLite</text>
+  <text x="720" y="971" class="footer">JWT role-based access</text>
+</svg>
